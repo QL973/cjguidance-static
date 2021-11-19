@@ -1,0 +1,28 @@
+.container {
+  display: grid | inline-grid;
+  grid-template-areas:
+    "H H H H"
+    "M M M M"
+    "S S . I"
+    "F F F F";
+}
+
+.header-container {
+  grid-area: H;
+}
+
+.main-container {
+  grid-area: M;
+}
+
+.side-container {
+  grid-area: I;
+}
+
+.section-container {
+  grid-area: S;
+}
+
+.footer-container {
+  grid-area: F;
+}

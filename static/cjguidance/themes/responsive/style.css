@@ -1,0 +1,17 @@
+
+
+.bg {
+  /* The image used */
+  background-image: url("/static/cjguidance/themes/responsive/images/matt-popovich--rNlq4IN_1k-unsplash.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
+
+  min-height: 768px;
+  width: 100%;
+}

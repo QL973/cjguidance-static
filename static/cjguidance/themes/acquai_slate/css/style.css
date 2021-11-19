@@ -1,0 +1,315 @@
+@charset "utf-8";
+
+
+/* Reset browser defaults
+
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a, abbr, acronym, address, big, cite, dl, dd,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, ol, ul, li, menu,
+fieldset, form, label, legend, input, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+
+
+html {
+  background-color: #292929;
+}
+
+body {
+	background: #292929;
+	background-color: #292929;
+	color: #F0F0F0;
+	#font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+	#font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+#page {
+	width: 960px;
+	position: relative;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+#page .mission {
+	background-attachment: scroll;
+	background-color: #292929;
+	background-image: url(../images/seascape.jpg);
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 960px;
+	position: relative;
+	top: -40px;
+}
+#page .mission .textbox {
+	#font-family: 'Open Sans', sans-serif;
+	#font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	color: #ffffff;
+	width: 80%;
+	position: relative;
+	text-align: center;
+	height: auto;
+	float: center;
+	top: 40%;
+	padding-left: 100px;
+}
+#page .textbox span {
+	background-color: #abcbf2;
+}
+
+#page ol {
+    margin-left: 50px;
+}
+
+#page ul {
+    margin-left: 50px;
+}
+
+#page p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#page sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+#page sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+
+a, a:link {
+	color: #dfb77c;
+	text-decoration: none;
+}
+
+a:active, a:hover, a:focus {
+	color: #ebdcc7;
+	text-decoration: underline;
+}
+#docs {
+}
+#language ul li{
+	display: inline;
+	padding-left: 5px;
+	margin: 0px;
+}
+#menu-links {
+	text-align: right;
+	padding-right: 15px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+
+
+#menu-links ul li {
+	display: inline;
+	text-transform: lowercase;
+}
+#menu-links    ul li a{
+	display: inline;
+	text-transform: lowercase;
+	color: #999;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+#menu-links ul li a span {
+	display: inline;
+	text-transform: lowercase;
+	color: #999;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#menu-links ul li a:hover {
+	display: inline;
+	text-transform: lowercase;
+	color: #FFF;
+	font-size: 16px;
+	text-decoration: none;
+	overflow: visible;
+	visibility: visible;
+	background-position: right center;
+	background-repeat: no-repeat;
+	z-index: 1;
+	background-color: 777777;
+	background-image: url(../images/pri-hover-right.png);
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-attachment: scroll;
+}
+#menu-links     ul li a:hover span{
+	display: inline;
+	text-transform: lowercase;
+	color: #FFF;
+	font-size: 16px;
+	text-decoration: none;
+	overflow: visible;
+	visibility: visible;
+	background-position: left center;
+	background-repeat: no-repeat;
+	z-index: 1;
+	background-color: 777777;
+	background-image: url(../images/pri-hover-left.png);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-attachment: scroll;
+}
+
+#header-wrapper {
+	background-image: url(../images/header-background.png);
+	background-repeat: no-repeat;
+	height: 91px;
+	background-attachment: scroll;
+	margin-bottom: 30px;
+}
+
+#header-title {
+	color: 525252;
+	background-attachment: fixed;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	position: relative;
+}
+
+
+#header-first {
+	padding-top: 30px;
+	padding-left: 20px;
+}
+#header-first li {
+	display: inline;
+}
+
+
+#header-first h1 {
+	border-right: 1px solid #DDDDDD;
+	color: #525252;
+	display: inline;
+	font-family: 'Roboto', sans-serif;
+    #font-family: 'Open Sans', sans-serif;
+	#font-family: Myriad Pro, Myriad Web Pro Regular, Lucida Grande, Geneva, Trebuchet MS, sans-serif;
+	font-size: 2.1em;
+	font-weight: normal;
+	letter-spacing: 3px;
+	position: relative;
+	text-transform: uppercase;
+	text-align: left;
+	padding-right: 15px;
+}
+
+
+#header-first h1 a {                /* site name link */
+    font-family: 'Roboto', sans-serif;
+    #font-family: 'Open Sans', sans-serif;    #color: #525252;
+    text-decoration: none;
+}
+#header-first .logo{
+	float: left;
+	top: -4px;
+	position: relative;
+}
+#header-first .name {
+}
+#header-first .slogan{
+	font-weight: bold;
+	color: #525252;
+	position: relative;
+	left: 10px;
+	width: 400px;
+	top: -3px;
+}
+
+
+
+/* 
+#menu-links ul li a:hover {
+	display: inline;
+	text-transform: lowercase;
+	color: #FFF;
+	font-size: 16px;
+	background-image: url(images/pri-hover-left.png);
+	text-decoration: none;
+	overflow: visible;
+	visibility: visible;
+	background-attachment: scroll;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+*/
+
+h1 {
+	color: #dfb77c;
+	font-size: 1.8em;
+	line-height: 1.2142em;
+}
+
+
+.title {
+	font-weight: bold;
+}
+
+
+#footer-wrapper {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-align: center;
+	width: 100%;
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+#footer-region {
+	background-color: #000;
+}
+#footer-menu {
+	padding-top: 11px;
+}
+
+
+
+#footer-message {
+	font-size: 12px;
+	color: #999999;
+	font-weight: 550;
+}
+#footer-message a {
+	color: #BD692B;
+}
+#footer-theme {
+	font-size: 11px;
+	color: #999999;
+	font-style: normal;
+	font-weight: 600;
+}

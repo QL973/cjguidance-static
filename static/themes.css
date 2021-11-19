@@ -1,0 +1,58 @@
+/* SYSTEM ONLINE */
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+div.nav-top {
+    margin: auto;
+    padding: 5px;
+}
+
+div.graph {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+    width: 500px;
+}
+
+iframe.graph {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+    width: 500px;
+    frameborder: 0;
+}
+
+div.login {
+    text-align: center;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+form.login {
+    margin-top: 20%;
+    vertical-align: middle;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+p.request {
+    margin-top: 20px;
+    text-align: center;
+}
+
+flash {
+
+}

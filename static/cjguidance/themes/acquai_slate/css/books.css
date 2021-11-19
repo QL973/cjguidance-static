@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+
+}
+
+#category {
+	font-weight:700;
+	color:#DFB77C;
+	font-size:17pt;
+	margin-bottom:34px;
+	margin-top: 50px;
+}
+#category-first {
+	font-weight:700;
+	color:#DFB77C;
+	font-size:17pt;
+	margin-top:0px;
+	margin-bottom:34px;
+}
+
+
+#cat-major {
+	color:#DFB77C; 
+	font-size:17pt; 
+	font-weight:700
+}
+
+#cat-23 {
+	font-size: 12px;
+	color:white
+}
+#book-img img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+#subcategory {
+	 font-weight:700; 
+	 color:#DFB77C; 
+	 font-size:14pt
+}
+
+#list-item {
+	  display:inline; 
+	  list-style-type:none; 
+	  font-size:14px;
+	  text-align:left; 
+	  float:left
+}
+
+#list-item-container {
+	width:187px;
+	height:340px;
+	padding-left:7px;
+	padding-right:20px
+}
+
+#book-img {
+	padding-bottom:18px
+}
+
+#book-numbering {
+	float:left;
+	height:88px;
+	font-size:11px;
+	position:relative;
+	left:-18px;
+	margin-right:-10px;
+	margin-top:3px
+}

@@ -1,0 +1,116 @@
+@charset "utf-8";
+#wrapper {
+
+}
+
+#container {
+	width: 6.5in;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #000;
+	background-color: #FFF;
+	position: relative;
+	text-align: left;
+}
+#container p {
+	text-indent: 30px;
+	text-align: justify;
+}
+#container #title {
+	font-size: 16pt;
+	text-align: center;
+}
+#container #sig {
+	font-size: 12pt;
+	left: 3in;
+	position: relative;
+	text-align: left;
+	text-indent: 0px;
+}
+#docs  {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	width: 652px;
+	position: relative;
+	text-align: justify;
+	}
+
+
+#docs #top-left {
+	background-attachment: fixed;
+	background-image: url(../images/docs-bg-top-left.gif);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	}
+#docs #top {
+	background-attachment: fixed;
+	background-image: url(../images/docs-bg-top.gif);
+	background-repeat: repeat-x;
+	height: 20px;
+	width: 1px;
+}
+#docs #top-right {
+	background-attachment: fixed;
+	background-image: url(../images/docs-bg-top-right.gif);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+}
+#docs #mid-left {
+	background-attachment: fixed;
+	background-image: url(../images/docs-bg-mid-left.gif);
+	background-repeat: repeat-y;
+	width: 20px;
+	height: 1px;
+	}
+#docs #mid-right {
+	background-attachment: fixed;
+	background-image: url(../images/docs-bg-mid-right.gif);
+	background-repeat: repeat-y;
+	width: 20px;
+	height: 1px;
+}
+#docs #title {
+	font-size: 16pt;
+	}
+#docs #mid {
+	width: 8.5in;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000;
+	background-color: #FFF;
+	padding: 1in;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+#docs p {
+	text-indent: 30pt;
+	}
+#docs #bot-left {
+	background-attachment: fixed;
+	background-image: url(../images/docs-bg-bottom.gif);
+	background-repeat: no-repeat;
+}
+#docs #bot {
+	background-attachment: fixed;
+	background-image: url(../images/docs-bg-bottom.gif);
+	background-repeat: no-repeat;
+	}
+#docs #bot-right {
+	background-attachment: fixed;
+	background-image: url(../images/docs-bg-bottom.gif);
+	background-repeat: no-repeat;
+}

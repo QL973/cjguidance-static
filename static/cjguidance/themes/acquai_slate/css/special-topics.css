@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#category {
+	font-weight:700;
+	color:#DFB77C;
+	font-size:17pt;
+	margin-bottom:34px;
+	margin-top: 50px;
+}
+
+
+#subcategory {
+	font-weight:700;
+	color:#DFB77C;
+	font-size:14pt;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+#content li{
+	list-style-position: inside;
+	line-height: 20px;
+}
+/* CSS Document */
+
+.indent-1 {
+	margin-left: 50px;
+}
+.indent-2 {
+	margin-left: 85px;
+}
+.indent-3 {
+	margin-left: 125px;
+}
+.indent-4 {
+	margin-left: 155px;
+}
+
+
+
+.none {
+	list-style-type: none;
+}
+.one {
+}
+.bold {
+	font-weight: bold;
+}
